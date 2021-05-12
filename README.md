@@ -19,19 +19,27 @@ Give a summary description of Four design patterns that you choose from the foll
     Less repetion
 # Builder
   ## Principle:
-    This pattern not allows usage of internal functionality flexibly but flexible to create complete functionality through single method and use it in application
+    This pattern does not allow usage of internal functionality flexibly but flexible to create complete functionality.
   ## Problems:
     When we have dependency on output rather solution implemented
   ## Uses:
     We can follow independent approach towards building the solution
     Have complete controll over the functionality
-# Builder
+# Decorator
   ## Principle:
-    This pattern not allows usage of internal functionality flexibly but flexible to create complete functionality through single method and use it in application
+    This pattern allows to modify few dynamically functionalities at runtime and have no controll over complete functionality
   ## Problems:
-    When we have dependency on output rather solution implemented
+    Responsibilities should be added to (and removed from) an object dynamically at run-time.
+    A flexible alternative to subclassing for extending functionality should be provided.
   ## Uses:
-    We can follow independent approach towards building the solution
-    Have complete controll over the functionality 
+    A decorator makes it possible to add or alter behavior of an interface at run-time
+# Composite
+  ## Principle:
+    This pattern handles when child objects are similar to main object(hierarchy handling)
+  ## Problems:
+    When we have group inside other gourp. Ex: Cost Center group can under other group(AA->XX->ZZ-><Cost Center>)
+  ## Uses:
+    Composite should be used when clients ignore the difference between compositions of objects and individual objects
+    When multiple objects have similar code
     
 
